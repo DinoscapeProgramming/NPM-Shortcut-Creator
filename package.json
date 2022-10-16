@@ -1,0 +1,31 @@
+{
+  "name": "npx-shortcut-creator",
+  "version": "1.0.43",
+  "description": "A package you can use to easily create NPX shortcuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinoscapeProgramming/NPM-Shortcut-Creator.git"
+  },
+  "keywords": [
+    "shortcuts"
+  ],
+  "author": "Dinoscape",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinoscapeProgramming/NPM-Shortcut-Creator/issues"
+  },
+  "homepage": "https://github.com/DinoscapeProgramming/NPM-Shortcut-Creator#readme",
+  "bin": {
+    "configureOptions": "src/bin/configureOptions.js",
+    "getOptions": "src/bin/getOptions.js",
+    "createShortcut": "src/bin/createShortcut.js",
+    "deleteShortcut": "src/bin/deleteShortcut.js",
+    "getShortcuts": "src/bin/getShortcuts.js",
+    "executeShortcut": "src/bin/executeShortcut.js",
+    "installBin": "src/bin/installBin.js"
+  }
+}
