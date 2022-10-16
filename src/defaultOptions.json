@@ -1,0 +1,13 @@
+{
+  "type": "bin",
+  "command": "node {-url}",
+  "commandProperties": {
+    "url": "path.join(__dirname, 'shortcuts', name + '.js').replaceAll('\\', '/').split('/').filter((_, index) => index > (process.cwd().replaceAll('\\', '/').split('/').length - 1)).join('/')"
+  },
+  "spacing": 2,
+  "typeExecution": {
+    "bin": "npx",
+    "script": "npm run"
+  },
+  "installBinCommand": "npm install -g"
+}
